@@ -10,6 +10,7 @@ while ($projectCount -notin (1..5))
 
 foreach ($projectCount in 1..$projectCount)
 {
+    # Create new Param name for user to avoid Users entaglement with entering a BranchName
     # Dot-Sourcing from BranchCreation to get Branch info
     . C:\Source\Repos\PowerShell_Projects\ProjectAuto\BranchCreationScript.ps1
     # Dot Sourcing from ProjectFolderCreation to create files
