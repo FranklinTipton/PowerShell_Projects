@@ -7,7 +7,7 @@ New-Item -Path "$basepath\$newProjectName" -ItemType Directory -force
 New-Item -Path "$basepath\$newProjectName\$newProjectName.ps1" -ItemType File
 
 # Create README
-$readMeContent = "#$newProjectName
+$readMeContent = "# $newProjectName
 
 ## Description
 
